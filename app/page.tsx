@@ -39,7 +39,7 @@ interface Notification {
   type: 'info' | 'success' | 'promo';
 }
 
-export default function Home() {
+export default function OscarCarWashApp() {
   const [currentView, setCurrentView] = useState<View>('dashboard');
   const [user, setUser] = useState<User>({ name: 'Jan Novák', balance: 340, points: 120, qrCode: 'OSCAR-12345' });
   const [vehicles, setVehicles] = useState<Vehicle[]>([]);
